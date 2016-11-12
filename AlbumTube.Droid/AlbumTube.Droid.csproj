@@ -92,5 +92,11 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AlbumTube.Core\AlbumTube.Core.csproj">
+      <Project>{A95BDE0A-F07F-44A3-A18E-D9142640FF0C}</Project>
+      <Name>AlbumTube.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
